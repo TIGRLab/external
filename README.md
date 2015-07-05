@@ -1,5 +1,43 @@
 A project for organizing our dbGAP data
 
+### Datasets
+
+- `FHS/` 
+
+  Framingham Cohort
+
+  http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000007.v25.p9
+
+  Datasets: 41896, 41904
+
+- `CARDIA/` 
+
+  Coronary Artery Risk Development in Young Adults (CARDIA) Study Cohort
+
+  http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000285.v3.p2
+
+  Datasets:  43161, 43162
+
+- `ADGC/` 
+
+  Alzheimer's Disease Genetics Consortium (ADGC) Genome Wide Association Study
+  -NIA Alzheimer's Disease Centers Cohort
+
+  http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000372.v1.p1
+
+  Datasets: 44719
+
+- `GenADA/`
+
+  Multi-Site Collaborative Study for Genotype-Phenotype Associations in
+  Alzheimer's disease and Longitudinal follow-up of Genotype-Phenotype
+  Associations in Alzheimer's disease and Neuroimaging component of
+  Genotype-Phenotype Associations in Alzheimer's disease 
+
+  http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000219.v1.p1
+
+  Datasets: 44717, 44718
+
 ### instructions for decrypting dbGaP data
 
 1. Download latest version of [decrypt tools](http://www.ncbi.nlm.nih.gov/Traces/sra/?view=software).  As of Jan 9 2015,
