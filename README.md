@@ -1,3 +1,5 @@
+A project for organizing our dbGAP data
+
 ### instructions for decrypting dbGaP data
 
 1. Download latest version of [decrypt tools](http://www.ncbi.nlm.nih.gov/Traces/sra/?view=software).  As of Jan 9 2015,
@@ -5,11 +7,11 @@
 
 2. Untar: 
 
-    tar -xvf decryption.2.4.3-ubuntu64.tar.gz
+        tar -xvf decryption.2.4.3-ubuntu64.tar.gz
 
 3. Run `sratoolkit.jar`, found within `decryption.2.4.3-ubuntu64/bin`:
 
-    java -jar decryption.2.4.3-ubuntu64/bin/sratoolkit.jar
+        java -jar decryption.2.4.3-ubuntu64/bin/sratoolkit.jar
 
 4. In the dialogue box that appears, enter a directory path ending with `ncbi/public`. You will be asked if this
    directory should be created, click yes.
@@ -17,7 +19,7 @@
 5. Once the "workspace" has been created, select new from the dropdown menu and select "import repository". Browse to
    find the .ngc file that you download from the NIH/dbGaP "Downloads" page for that particular dataset. The .ngc file
    (the "repository key") is the same for each dataset downaloaded as part of the same dbGaP project number (i.e.
-   #3457).
+   3457).
 
 6. Quit the SRA toolit setup GUI
 
@@ -40,6 +42,6 @@
     command found in `decryption.2.4.3-ubuntu64/bin`, with the top-level folder of the dowloaded data (should be a 5-digit
     number; 41904 is the example below) as the single input.
 
-    decryption.2.4.3-ubuntu64/bin/vdb-decrypt /some_dir/dataset1/41904
+        decryption.2.4.3-ubuntu64/bin/vdb-decrypt /some_dir/dataset1/41904
 
 11. Throw a pinch of salt over your left shoulder, tap your desk, and cross your fingers.
