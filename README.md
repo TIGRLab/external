@@ -38,17 +38,6 @@ A project for organizing our dbGAP data
 
   Datasets: 44717, 44718
 
-- `GenADA/`
-
-  Multi-Site Collaborative Study for Genotype-Phenotype Associations in
-  Alzheimer's disease and Longitudinal follow-up of Genotype-Phenotype
-  Associations in Alzheimer's disease and Neuroimaging component of
-  Genotype-Phenotype Associations in Alzheimer's disease 
-
-  http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000219.v1.p1
-
-  Datasets: 44717, 44718
-
 - `IMSGC/`
 
   International Multiple Sclerosis Genomics Consortium (IMSGC) Genome Wide Association Study of Multiple Sclerosis 
